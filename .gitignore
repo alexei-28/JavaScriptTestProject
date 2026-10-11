@@ -1,0 +1,83 @@
+# =========================
+# JetBrains WebStorm / IDE
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =========================
+# Node.js & Frontend
+# =========================
+node_modules/
+jspm_packages/
+lib-cov/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Сборка и кэш фронтенда
+dist/
+build/
+.nuxt/
+.next/
+.vuepress/dist
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+
+# Линтеры и инструменты
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# =========================
+# Окружение и секреты
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Операционные системы
+# =========================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# =========================
+# Логи и временные файлы
+# =========================
+logs/
+*.log
+*.sqlite
+*.sqlite-journal
+tmp/
+temp/
